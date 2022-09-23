@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MIT
+
+[project]
+name = "disnake-ext-plugins"
+version = "0.1.0"
+description = "Bye bye cogs and extensionss, say hello to plugins!"
+authors = [
+    {name = "ItsAleph", email = "igorekkrupskij@gmail.com"},
+]
+dependencies = []
+requires-python = ">=3.10"
+readme = "README.md"
+license = {text = "MIT"}
+
+[build-system]
+requires = ["pdm-pep517>=1.0.0"]
+build-backend = "pdm.pep517.api"
