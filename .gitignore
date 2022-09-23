@@ -1,0 +1,17 @@
+# SPDX-License-Identifier: MIT
+
+__pycache__/
+*.py[cod]
+build
+dist
+*.egg-info
+*.egg
+
+docs/_build/
+
+.pdm.toml
+__pypackages__/
+
+.venv
+venv/
+
