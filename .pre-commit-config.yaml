@@ -1,6 +1,6 @@
 # SPDX-License-Identifier: MIT
 
-# This file is gracefully stolen from https://github.com/DisnakeCommunity/disnake-ext-formatter
+# Yoinked from disnake-ext-formatter
 
 ## Pre-commit setup
 
