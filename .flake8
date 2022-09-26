@@ -24,9 +24,12 @@ exclude =
 per-file-ignores =
     # unused imports, star imports
     */__init__.py: F401, F403
+    tests/*.py: E501, B008, S101
 
 # For error codes, see this https://flake8.pycqa.org/en/latest/user/error-codes.html
 ignore =
+    # Not *that* useless, but in most cases it's just annoying and not worth it
+    PT011
     # whitespace before ':', linebreak before operator. Not compatible with black
     E203,W503,
     # ignore linebreak after `/` operator
@@ -39,3 +42,5 @@ ignore =
     S110,
     # ignore multiple `##` starting a comment
     E266,
+
+docstring-convention = numpy

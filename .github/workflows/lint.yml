@@ -21,9 +21,9 @@ jobs:
 
       - name: Lint
         run: |
-          python -m black disnake_ext_components examples tests --check
-          python -m isort disnake_ext_components examples tests -c
-          python -m flake8 disnake_ext_components examples tests
+          python -m black disnake/ext/plugins examples tests --check
+          python -m isort disnake/ext/plugins examples tests -c
+          python -m flake8 disnake/ext/plugins examples tests
 
   test:
     strategy:
